@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* Sky Blue Background */
+    color: #333;
+}
+
+header {
+    background-color: #87ceeb; /* Sky Blue Header */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.destination-container {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #b0e0e6; /* Light Steel Blue Border */
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #b0e0e6; /* Light Steel Blue Border */
+}
+
+.destination-details {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #4682b4; /* Steel Blue Text */
+    line-height: 1.6;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    .destination-details {
+        padding: 10px;
+    }
+}
